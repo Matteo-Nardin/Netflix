@@ -58,3 +58,29 @@ body{
     width: 100%;
     max-width: 150px;
 }
+
+.input-avatar{
+    background-color: gray;
+    color: white;
+    border: none;
+}
+::palceholder{
+    color: white;
+    opacity: 1;
+}
+.custom-select{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: none;
+}
+.custom-settings{
+    color:white;
+    background-color: #808080b8;
+    border-radius: 0%;
+    font-weight: bold;
+}
+.custom-check{
+    background-color: #ff000000;;
+    padding: 15px;
+}
