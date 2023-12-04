@@ -53,6 +53,9 @@ body{
 .oflow img{
     padding-right: 5px;
 }
+footer{
+    font-size: 0.7rem;
+}
 
 #avatar{
     width: 100%;
@@ -63,11 +66,16 @@ body{
     background-color: gray;
     color: white;
     border: none;
+    padding: 5px 10px;
 }
-::palceholder{
+::placeholder {
     color: white;
-    opacity: 1;
-}
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12-18 */
+    color: white;
+  }
 .custom-select{
     background-color: black;
     color: white;
@@ -79,6 +87,10 @@ body{
     background-color: #808080b8;
     border-radius: 0%;
     font-weight: bold;
+}
+.custom-settings:hover{
+    color: #808080b8;
+    background-color: white;
 }
 .custom-check{
     background-color: #ff000000;;
