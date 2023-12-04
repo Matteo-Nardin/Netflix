@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+.icon-white{
+    font-size: 16px;
+    color:white;
+}
+
+.white{
+    color: white;
+}
+
+.no-radius-white{
+    border-radius: 0;
+    border: 1px solid white;
+}
+
+.no-border{
+    border: none;
+}
+.gray{
+    color: white;
+    opacity: 55%;
+}
+.footer-icon{
+    font-size: 2rem;
+    color: white;
+    opacity: 55%;
+}
+.horizontal_slider{
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+}
+/* .horizontal_slider::-webkit-scrollbar {
+    display: none;
+} */
+
+.slider_container{
+    display: block;
+    white-space: nowrap;
+}
+.obj{
+    display: inline-block;
+}
+/* .obj img{
+    width: 
+} */
+
+.oflow{
+    overflow-x: scroll;
+}
+.oflow img{
+    padding-right: 5px;
+}
+
+#avatar{
+    width: 100%;
+    max-width: 150px;
+}

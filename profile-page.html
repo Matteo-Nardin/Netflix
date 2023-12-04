@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container bg-dark">
+        
+        <main>
+            <div class="container white">
+                <div class="row">
+                    <div class="col mb-5">
+                        <img class="rounded float-start" src="assets/netflix_logo.png" alt="netflix_logo" width="150px">
+                    </div>
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-6 border-bottom"> 
+                        <h1>Edit Profile</h1>
+                    </div>
+
+                <div class="row justify-content-md-center p-3">
+                    <div class="col-md-2">
+                        <img id="avatar" src="assets/avatar.png" alt="avatar" >
+                    </div>
+                    <div class="col-md-4 border-bottom p-3">
+                        <input type="text" class="" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        <h3>Language:</h3>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>English</option>
+                            <option value="1">Deutsch</option>
+                            <option value="2">French</option>
+                            <option value="3">Italian</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row justify-content-md-center p-3">
+                    <div class="col-md-2">
+                        <!-- righa vuota per creare spazio ( sicuramente c'è di meglio) -->
+                    </div>
+                    <div class="col-md-4 border-bottom p-3">
+                        <input type="text" class="" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        <h3>Maturity Settings:</h3>
+                        <button type="button" class="btn btn-dark">All maturity settings</button>
+                        <p>Show titles of <b>all maturity ratings</b> for this profile</p>
+                        <button type="button" class="btn btn-dark no-radius-white mt-2 gray">EDIT</button>
+                    </div>
+                </div>
+
+                <div class="row justify-content-md-center p-3">
+                    <div class="col-md-2">
+                        <!-- righa vuota per creare spazio ( sicuramente c'è di meglio) -->
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <h3>Autoplay controls:</h3>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> Autoplay next episode in a series of all devices</label><br>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2"> Autoplay previews while browsing on all devices</label><br>
+                    </div>
+                </div>
+
+
+
+            <!-- ---------------------------3 botttoni----------------------- -->
+                <div class="row justify-content-md-center">
+                    <div class="col-md-6 border-top p-3"> 
+                        <div class="d-flex justify-content-between">
+                            <button type="button" class="btn btn-dark no-radius-white mt-2 gray">Save</button>
+                            <button type="button" class="btn btn-dark no-radius-white mt-2 gray">Cancel</button>
+                            <button type="button" class="btn btn-dark no-radius-white mt-2 gray">delete Profile</button>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+    </div>
+</body>
+</html>
